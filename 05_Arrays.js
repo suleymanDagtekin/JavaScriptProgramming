@@ -55,3 +55,29 @@ let soupOfData = [5, 'Oscar', true, undefined]; // you can also put Map, Object,
 soupOfData.forEach(element => {
    console.log(typeof element);
 });
+
+console.log('-----------------------------------');
+
+let arr1 = [];
+let arr2 = new Array();
+let arr3 = [1, 'Oscar', true, undefined, null];
+let arr4 = new Array(2, 'Papa', false, undefined, null);
+let arr5 = new Array(8);
+
+console.log(arr1);
+console.log(arr2);
+console.log(arr3);
+console.log(arr4);
+console.log(arr5);
+
+arr4.forEach(element => {
+   console.log(typeof element);   
+});
+
+for (let value of arr4) {
+   console.log(value);   
+};
+
+
+
+
